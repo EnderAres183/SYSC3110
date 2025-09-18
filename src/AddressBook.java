@@ -2,9 +2,13 @@ import java.util.ArrayList;
 
 public class AddressBook {
 
-    private ArrayList<BuddyInfo> buddys = new ArrayList<>();
+    private ArrayList<BuddyInfo> buddys;
 
-    public void addBuddy(BuddyInfo bud) {
+    public AddressBook() {
+        this.buddys = new ArrayList<>();
+    }
+
+    public void addBuddy(BuddyInfo bud) {`
         buddys.add(bud);
     }
 
