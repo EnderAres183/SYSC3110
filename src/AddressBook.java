@@ -8,7 +8,7 @@ public class AddressBook {
         this.buddys = new ArrayList<>();
     }
 
-    public void addBuddy(BuddyInfo bud) {`
+    public void addBuddy(BuddyInfo bud) {
         buddys.add(bud);
     }
 
