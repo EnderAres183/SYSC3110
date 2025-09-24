@@ -16,6 +16,9 @@ public class AddressBook {
         buddys.remove(bud);
     }
 
+    public ArrayList<BuddyInfo> getBuddys() {
+        return buddys;
+    }
 
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", 613);
